@@ -41,10 +41,3 @@ $(document).ready(function(){
 
 
 
-$("img.lazy").lazyload();
-
-$(function() {
-  $('.lazy').lazyload({
-      delay: 5000
-  });
-});
