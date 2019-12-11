@@ -52,13 +52,13 @@ section {
   }
 
   [class*="single"] {
-    height: 500px;
+    height: 5%;
   }
   [class*="double"] {
-    height: 900px;
+    height: 8.5%;
   }
   [class*="triple"] {
-    height: 1400px;
+    height: 12.5%;
   }
 
   [class*="column1"] {
@@ -110,14 +110,30 @@ section {
   #box {
 
     position: relative;
-    width: 22px;
+    width: 40px;
     /* left: 15px;
     top: 55px; one half of the remaining 30% */
+    height: 0px;
+    background: #060c21;
+    margin: 10px;
+    border-radius: 50%;
+    border-width: 0 25px 25px 25px;
+    box-sizing: content-box;
+    position: relative;
+    margin: 20px 0 50px 0;
+   }
+
+ 
+  #box {
+
+    position: relative;
+    width: 22px;
     height: 22px;
     background: #060c21;
     margin: 10px;
     border-radius: 50%;
-   }
+   } 
+  
   
    #box::before {
      content: "";
@@ -194,9 +210,7 @@ section {
   } 
 
 
-  a:hover {
-    color: #fff;
-  }
+  
   .team-avatar {
     position: relative;
     height: 380px;
@@ -239,7 +253,7 @@ section {
   }
   .team-name {
     display: inline-block;
-    color: #00FFA4;
+    color: #fff;
     font-weight: bold;
     font-size: 1.5rem;
 
@@ -319,17 +333,6 @@ section {
       height: 100%;
     }
 	}
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-  
-  
- #fa {
-  display: inline;
-  font-size: 22px;
-  color: blue;
- }
-
-
 
   a {
     
@@ -341,12 +344,6 @@ section {
    }
 
  
-a:hover 
-{
-     color:blue; 
-     outline: none;
-     
-}
 
 
 a:hover {
@@ -358,7 +355,7 @@ a:hover {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px #e60073, 0 0 70px #e60073;
   }
