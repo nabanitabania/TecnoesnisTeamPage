@@ -52,13 +52,13 @@ section {
   }
 
   [class*="single"] {
-    height: 5%;
+    height: 90vh;
   }
   [class*="double"] {
-    height: 8.5%;
+    height: 140vh;
   }
   [class*="triple"] {
-    height: 12.5%;
+    height: 200vh;
   }
 
   [class*="column1"] {
