@@ -44,8 +44,12 @@ section {
   margin:auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   /* For mobile phones: */
+[class*="column2"] {
+    display: block;
+  }
+	
   section {
     width: 95vw;
     justify-content: center;
