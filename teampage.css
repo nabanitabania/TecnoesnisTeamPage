@@ -49,6 +49,7 @@ section {
   section {
     width: 100%;
     justify-content: center;
+    display: block;
   }
 
   [class*="single"] {
